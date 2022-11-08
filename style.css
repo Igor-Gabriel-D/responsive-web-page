@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rambla:wght@400;700&display=swap');
+/*
+#cb0c59
+#06394c
+#0c4383
+#08151e
+*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+:root{
+	font-size: 62.5%;
+}
+body{
+	background-color: #08151e;
+}
+
+main{
+	max-width: 76.9rem;
+	min-height: 100vh;
+	margin: 0 auto;
+
+	color: #ffffff;
+
+	background-image: url('tokyo-aesthetic.jpg');
+	background-size: cover;
+
+
+}
+.bg-color{
+	width: 100%;
+	min-height: 100vh;
+
+	padding: 3.2rem;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+section:first-child > p:first-child{
+	color: #7ca0d0;
+}
+p, h1{
+	margin: 3.2rem 0;
+	font-family: 'Rambla', sans-serif;
+}
+p{
+	font-weight: 400;
+	font-size: 2.0rem;
+}
+h1{
+	font-weight: 700;
+	font-size: 3.6rem;
+}
+ul{
+	list-style-type: none;
+
+}
+ul p{
+	font-size: 2.4rem;
+}
+li > p > span{
+	font-size: 3.6rem;
+	font-weight: 700;
+	color: #cb0c59;
+
+	margin: 0 1.6rem 0 0;
+}
+
+a{
+	text-decoration: none;
+	color: #cb0c59;
+}
+
+@media (min-width: 770px){
+	main{
+		max-width: 125.0rem;
+	}
+	.bg-color{
+		display: flex;
+		gap: 3.2rem;
+	}
+	section:first-child{
+		width: 70%;
+	}
+	section:not(section:first-child){
+		width: 30%;
+	}
+	ul{
+		padding: 4.8rem 0 0 0;
+	}
+}
